@@ -8,7 +8,7 @@ var WebpackDevServer = require("webpack-dev-server");
 var webpackConfig = require("./webpack.config.js");
 var stream = require('webpack-stream');
 var size = require('gulp-size');
-var filesize = require('./custom_modules/gulp-filesize');
+var filesize = require('gulp-filesize');
 
 
 gulp.task('webpack', [], function() {
